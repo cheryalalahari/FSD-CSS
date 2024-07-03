@@ -1,0 +1,47 @@
+/* width sets the actual width of an element  while  */
+
+/* div{
+    background-color: chartreuse;
+    width: 200px;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: scroll; 
+    font-size: 10px;
+} */
+
+/* CSS Units determines the size and position of the elements on the webpage  */
+
+/* We have multiple units such as pixel(px), percentage(%), viewport width(vw), viewport height(vh), em and rem that are commonly used  */
+
+/* Apart from these we also have absolute lengths such as inch, cm, mm, pt and many more which are not used generally because of the issues it face with different browsers and screen sizes */
+
+
+/* 1. Pixel - a single dot on the screen. Good  for fixed sized elements like boreder-width  */
+/* border-width: 2px; */
+
+/* 2. Percentage - relative to the size of the parent element and it is useful for creating responsive layouts. */
+
+#outerDiv{
+    /* width: 70%; */
+    background-color: blueviolet;
+    height: 100vh;
+
+}
+
+#innerDiv{
+    Width: 80%;
+    background-color: crimson;
+    /* font-size: 2vw; */
+    font-size: 2em;
+    /* font-size: 2rem; */
+    color: white;
+}
+
+/* Viewport Width and Viewport Height */
+
+/* vw: relative to the width of the Viewport */
+/* vh: relative to the height of the Viewport */
+
+/* em is relative to the font size of the element and rem is similar to em but it is relative to html root  */

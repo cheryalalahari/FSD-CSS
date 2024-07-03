@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+}
+.items{
+    background-color: gold;
+    width: 230px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* mobile - breakpoint -- 100px to 680px  */
+/* tablets - breakpoint -- 680px to 768px  */
+/* desktop - breakpoint -- 780px to 1280px  */
+
+/* Media Query in the same css  file also, it should be written at the bottom of the css file  */
+
+@media  only screen and (min-width: 100px) and (max-width: 500px) {
+    h2{
+        color: blueviolet;
+    }
+
+    .parent{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 680px) and (max-width: 1080px) {
+
+    h2{
+        background-color: lime;
+        color: tomato;
+    }
+    
+}

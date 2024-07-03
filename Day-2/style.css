@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jacquard+24+Charted&display=swap');
+/* * Asterisk */
+/* Attribute selector */
+/* input[type:text]{
+
+} */
+
+/* CSS Syntax */
+
+/* *Selector{
+    Property: Value;
+} */
+ p {
+     text-align: center;
+
+     /* font-size: 25px;
+     font-weight: 700;
+     font-style: italic; 
+     font-variant:small-caps;
+      
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+     font-family: "Jacquard 24 Charted", system-ui;  */
+
+      /* shorthand Property of font   */
+
+    font: italic 30px Sans-serif;
+    line-height: 50px; 
+
+    
+} 
+
+
+/* In  CSS, Box Model consists of 4 properties that are content, padding, border, margin and for every element defined in the html it will be styled around box model  */
+
+/* In CSS, Margin and Padding are the property to display the element, where margin is the space that gets applied around the element and padding is the space that gets applied between the border and center */
+
+  div{
+    /* text-align: center;
+    width: 200px;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-width: 20px;
+    border: 2px solid red;
+    border: 2px double goldenrod;
+    border: 3px groove grey;
+    border-left:10px solid burlywood ;
+    border-right:15px solid yellowgreen ;
+    border-top: 5px solid red;
+    border-bottom: 3px solid violet;
+    background-color: darkcyan;
+    */
+
+    /* border: top right bottom left; 
+    border-radius: 5px; 
+    border-radius: 10px 5px 20px 30px;
+    padding: 10px 20px 30px 30px; */
+
+    /* margin: 40px 20px 30px 30px; 
+    margin: 100px 100px;  */
+    margin: auto; 
+
+    /* text-properties are applied to the text of the element */
+
+    text-align: end;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: -2px -2px red;
+
+     
+ }  
+
+  /* we have different ways to choosing color for the element and they are 1. by name, 2. hex code, 3. rgb 4. hsl */
+
+ a{
+    text-decoration: none;
+    /* color: black; */
+    /* color: rgb(200, 50, 100); */
+    /* color: rgba(40, 50, 100, 0 t0 1); */
+    color: rgb(196, 90, 50);
+    margin-left: 300px;
+    font-size: 30px; 
+    color: #76b5c5 ;
+     
+ }
+
+

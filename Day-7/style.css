@@ -1,0 +1,68 @@
+/* Selectors:elements, id, class, pseudo, grouping, universal, attribute  */
+
+table, tr, th, td {
+    border: 2px solid grey;
+    padding: 10px;
+
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: aquamarine;
+
+}
+
+ol, ul{
+    list-style-type:decimal-leading-zero;
+    margin-left: 70px;
+    list-style-type: none;
+    list-style-type: symbols('>');
+    /* list-style-image:url() ; */
+    list-style: "🔸";
+}
+
+/* Pseudo Classes and Selectors  */
+a:active{
+    color: black;
+
+}
+
+input:focus{
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: cadetblue;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+div p:last-child{
+    font-weight: 800;
+    font-size: 20px;
+    color:deeppink;
+}
+
+div p::first-letter{
+    font-size: 50px;
+}
+
+div p::before{
+    content: "Before Text";
+    color: chartreuse;
+}
+div p::after{
+    content: "After Text";
+    color: chartreuse;
+}
+

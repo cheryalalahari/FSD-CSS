@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div{
+    background-color: burlywood;
+    width: 300px;
+    height: 40px;
+    display: inline;
+    display: none;
+} */
+  
+/* we can apply height and width to block level element but we cannot apply the same to inline element  */
+/* Display-none will remove the element from the viewport and it wont occupy any space on document but visibility will occupy the space and make the element invisible  */
+
+/* span{
+    background-color: cadetblue;
+    width: 300px;
+    height: 40px;
+    display: block;
+    display: inline-block;
+    visibility: hidden;
+} */
+
+
+/* Flexbox layout is way to arrange elements in either x-axis or y-axis, meaning provide the space between the elements and arrange in one dimensional model  */
+/* display: inline-flex and flex  */
+
+.parent{
+    width: 90%;
+    margin: auto;
+    background-color: cornflowerblue;
+    border: 2px solid red;
+    height: 90vh;
+    display: flex;
+    /* flex-direction: row-reverse, row, column, column-reverse  */
+    flex-direction: row;
+    /* justify-content: space-evenly, space-around, space-between, center, flex-start, flex-end, first baseline  */
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: nowrap, wrap, wrap-reverse;  */
+    flex-wrap: wrap;
+
+    
+}
+
+/* cross axis and main axis: when direction of flex iems is row then direction of places elements would main axis and opposite would be cross axis, when the direction of elements  is column then, however the elements are being placed would be main axis and opposite is cross axis */
+
+.items{
+    width: 70px;
+    background-color: burlywood;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.item1{
+    align-self: flex-end;
+}
+
+.item3{
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+.item7{
+    align-self: flex-start;
+    flex-grow: 9;
+    flex-shrink: 1;
+}
+
+.item2{
+    align-self: flex-start;
+}

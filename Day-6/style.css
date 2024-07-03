@@ -1,0 +1,40 @@
+p{
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+ } 
+
+ img{
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    /* opacity takes the value from 0 to 1, it will make the transparent according to the value  */
+    /* opacity: 0.6; */
+    /* object-fit: contain/cover/fit/none ; */
+    
+ }
+
+
+ /* img:hover{
+    opacity: 1;
+ } */
+
+ .linear{
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+    background-image:  repeating-linear-gradient(to top, red, yellow);
+ }
+
+ .radial{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: repeating-radial-gradient(circle, red, blue);
+
+ }
